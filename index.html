@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="/library.js" defer></script>
+    <title>Book Library</title>
+  </head>
+  <body>
+    <div id="books">
+      <!-- <div id="empty-book"><span id="plus">+</span></div> -->
+    </div>
+    <form id="book-form" action="">
+      <p>Add book to the library</p>
+      <div class="input-container">
+        <label for="title">Title:</label>
+        <input id="title" name="title" type="text" placeholder="The Hobbit"/>
+      </div>
+      <div class="input-container">
+        <label for="author">Author:</label>
+        <input id="author" name="author" type="text" placeholder="J.R.R. Tolkien"/>
+      </div>
+      <div class="input-container">
+        <label for="pages">Pages:</label>
+        <input id="pages" name="pages" type="number" placeholder="295"/>
+      </div>
+      <div class="input-container">
+        <label for="is-read">Is read?:</label>
+        <input id="is-read" name="is-read" type="checkbox" />
+      </div>
+      <button id="add-book" type="submit">Add book</button>
+    </form>
+  </body>
+</html>
